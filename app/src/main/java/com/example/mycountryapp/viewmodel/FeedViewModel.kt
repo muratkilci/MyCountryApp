@@ -38,7 +38,6 @@ class FeedViewModel(application: Application) : BaseViewModel(application) {
         } else {
             getDataFromAPI()
         }
-        getDataFromAPI()
     }
 
     fun refreshFromAPI(){
